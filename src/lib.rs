@@ -95,7 +95,7 @@
 //! ```
 
 #![no_std]
-#[warn(missing_docs)]
+#![warn(missing_docs)]
 use core::{
     cmp,
     fmt::{self, Display},
