@@ -1,3 +1,5 @@
+extern crate size_format;
+
 use size_format::SizeFormatterSI;
 
 #[test]

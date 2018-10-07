@@ -61,6 +61,9 @@
 //!
 //! It is also possible to implement the `PrefixType` trait to make your own prefix system.
 //! ```
+//! extern crate generic_array;
+//! extern crate size_format;
+//!
 //! use size_format::{PointSeparated, PrefixType, SizeFormatter};
 //! use generic_array::{typenum::U3, GenericArray};
 //!
@@ -95,7 +98,10 @@
 //! ```
 
 #![no_std]
-#[warn(missing_docs)]
+#![warn(missing_docs)]
+
+extern crate generic_array;
+extern crate num;
 use core::{
     cmp,
     fmt::{self, Display},

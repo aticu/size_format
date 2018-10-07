@@ -1,3 +1,6 @@
+extern crate generic_array;
+extern crate size_format;
+
 use generic_array::{typenum::U3, GenericArray};
 use size_format::{PointSeparated, PrefixType, SizeFormatter};
 

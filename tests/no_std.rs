@@ -1,5 +1,7 @@
 #![no_std]
 
+extern crate size_format;
+
 #[cfg(test)]
 #[macro_use]
 extern crate std;

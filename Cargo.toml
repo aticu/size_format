@@ -8,7 +8,6 @@ repository = "https://github.com/aticu/size_format"
 keywords = ["size", "prefix", "unit", "format", "no_std"]
 categories = ["value-formatting"]
 readme = "README.md"
-edition = "2018"
 
 [dependencies]
 num = { version = "0.2", default-features = false }
