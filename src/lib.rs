@@ -102,6 +102,7 @@
 
 extern crate generic_array;
 extern crate num;
+
 use core::{
     cmp,
     fmt::{self, Display},
