@@ -1,0 +1,12 @@
+[package]
+name = "size_format"
+version = "1.0.0"
+authors = ["aticu <15schnic@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "Allows for easier formatting of sizes."
+repository = "https://github.com/aticu/size_format"
+edition = "2018"
+
+[dependencies]
+num = "0.2"
+generic-array = "0.12.0"
