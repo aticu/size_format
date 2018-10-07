@@ -94,6 +94,7 @@
 //! );
 //! ```
 
+#![no_std]
 #[warn(missing_docs)]
 use core::{
     cmp,
@@ -267,8 +268,13 @@ where
 }
 
 #[cfg(test)]
+#[macro_use]
+extern crate std;
+
+#[cfg(test)]
 mod tests {
     use super::*;
+    use std::string::ToString;
 
     #[test]
     fn small_sizes() {

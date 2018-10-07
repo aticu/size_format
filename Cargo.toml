@@ -1,6 +1,6 @@
 [package]
 name = "size_format"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["aticu <15schnic@gmail.com>"]
 license = "MIT OR Apache-2.0"
 description = "Allows for easier formatting of sizes."
@@ -11,5 +11,5 @@ readme = "README.md"
 edition = "2018"
 
 [dependencies]
-num = "0.2"
+num = { version = "0.2", default-features = false }
 generic-array = "0.12.0"
